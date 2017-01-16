@@ -19,12 +19,14 @@ public class WordsinFiles {
         for (String temp:fr.words()){
             if (!map.containsKey(temp)){
                 ArrayList<String> al = new ArrayList<>();
-                al.add(temp);
+                al.add(f.getName());
                 map.put(temp,al);
             }else{
                 ArrayList<String> al = map.get(temp);
-                al.add(temp);
-                map.put(temp,al);
+                if (!al.contains(f.getName())) {
+                    al.add(f.getName());
+                    map.put(temp, al);
+                }
             }
         }
     }
@@ -48,9 +50,37 @@ public class WordsinFiles {
         }
         return maxcount;
     }
+
+    public  ArrayList<String> wordsInNumFiles(int number){
+        ArrayList<String> al = new ArrayList<>();
+        for (String temp:map.keySet()){
+            ArrayList<String> als= map.get(temp);
+            if (als.size()==number){
+                al.add(temp);
+            }
+        }
+        return al;
+
+    }
+    public void printFilesIn(String word){
+        ArrayList<String> sl = map.get(word);
+        for (String temp:sl){
+            System.out.println(temp);
+        }
+    }
+
     public static void main(String[] arg){
         WordsinFiles wif = new WordsinFiles();
         wif.buildWordFileMap();
-        System.out.println(wif.maxNumber());
+        System.out.println("The greatest number of files a word appears in is "+wif.maxNumber()+", and there are "+
+                wif.wordsInNumFiles(wif.maxNumber()).size()+" such words: "+ wif.wordsInNumFiles(wif.maxNumber()));
+        //wif.printFilesIn("cats");
+        for (String temp:wif.map.keySet()){
+            System.out.println(temp+" appears "+
+                    wif.map.get(temp).size()+" times in: ");
+            wif.printFilesIn(temp);
+
+        }
+
     }
 }
