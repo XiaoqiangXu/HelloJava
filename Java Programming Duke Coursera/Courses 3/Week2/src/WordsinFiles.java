@@ -73,14 +73,19 @@ public class WordsinFiles {
         WordsinFiles wif = new WordsinFiles();
         wif.buildWordFileMap();
         System.out.println("The greatest number of files a word appears in is "+wif.maxNumber()+", and there are "+
-                wif.wordsInNumFiles(wif.maxNumber()).size()+" such words: "+ wif.wordsInNumFiles(wif.maxNumber()));
-        //wif.printFilesIn("cats");
-        for (String temp:wif.map.keySet()){
-            System.out.println(temp+" appears "+
-                    wif.map.get(temp).size()+" times in: ");
-            wif.printFilesIn(temp);
-
-        }
-
+                wif.wordsInNumFiles(wif.maxNumber()).size());
+        System.out.println("The number of files a word appears in is "+4+", and there are "+
+                wif.wordsInNumFiles(4).size());
+        wif.printFilesIn("sea");
+//        for (String temp:wif.map.keySet()){
+//            System.out.println(temp+" appears "+
+//                    wif.map.get(temp).size()+" times in: ");
+//            wif.printFilesIn(temp);
+//        }
     }
+
+
+
+
+
 }

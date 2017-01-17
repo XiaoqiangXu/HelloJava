@@ -48,8 +48,8 @@ public class CodenCount
         String dna = fr.asString();
         dna = dna.trim();
         dna = dna.toUpperCase();
-        int start = 1;
-        int end =5;
+        int start = 2;
+        int end =20;
         buildCodonMap(0,dna);
         System.out.println("Reading frame starting with 0 results in "+map.size()+" unique codons");
         System.out.println("and most common code is "+getMostCommonCodon()+" with count "+map.get(getMostCommonCodon()));

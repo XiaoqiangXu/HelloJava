@@ -24,7 +24,8 @@ public class WordFrequenciesMap {
                 System.out.println(occurrences+"  "+w);
             }
         }
-        System.out.println("total = "+total);
+        System.out.println("total words = "+total);
+        System.out.println("total unique words = "+map.size());
 
     }
     public static void main (String[] arg){
