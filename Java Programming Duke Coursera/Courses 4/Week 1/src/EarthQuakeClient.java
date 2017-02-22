@@ -36,6 +36,22 @@ public class EarthQuakeClient {
         return answer;
     }
 
+    public ArrayList<QuakeEntry> filterByPhrase(ArrayList<QuakeEntry> quakeData,String where,String phrase){
+        ArrayList<QuakeEntry> answer = new ArrayList<>();
+        for (QuakeEntry qe:quakeData){
+            String qeInfo = qe.getInfo();
+            int indexOf = qeInfo.indexOf(phrase);
+            if (where.equals("start")&&indexOf==0){
+                answer.add(qe);
+            }else if(where.equals("end")&&indexOf==qeInfo.length()-phrase.length()){
+                answer.add(qe);
+            }else if(where.equals("any")&&indexOf!=-1){
+                answer.add(qe);
+            }
+        }
+        return answer;
+    }
+
     public void dumpCSV(ArrayList<QuakeEntry> list){
 		System.out.println("Latitude,Longitude,Magnitude,Info");
 		for(QuakeEntry qe : list){
@@ -101,11 +117,11 @@ public class EarthQuakeClient {
 
     public void quakesOfDepth(){
         EarthQuakeParser parser = new EarthQuakeParser();
-        String source = "data/nov20quakedatasmall.atom";
+        String source = "data/nov20quakedata.atom";
         ArrayList<QuakeEntry> list = parser.read(source);
         System.out.println("# quakes read: " + list.size());
 
-        ArrayList<QuakeEntry> depth = filterByDepth(list,-10000.0,-5000.0);
+        ArrayList<QuakeEntry> depth = filterByDepth(list,-4000.0,-2000.0);
         for (QuakeEntry qe:depth){
             System.out.println(qe);
         }
@@ -113,6 +129,21 @@ public class EarthQuakeClient {
 
 
     }
+
+    public void quakesByPhrase(){
+        EarthQuakeParser parser = new EarthQuakeParser();
+        String source = "data/nov20quakedata.atom";
+        ArrayList<QuakeEntry> list = parser.read(source);
+        System.out.println("# quakes read: " + list.size());
+        ArrayList<QuakeEntry> depth = filterByPhrase(list,"any","Can");
+        for (QuakeEntry qe:depth){
+            System.out.println(qe);
+        }
+        System.out.println("Found "+depth.size()+" quakes that match that criteria");
+
+    }
+
+
 
 
 }
