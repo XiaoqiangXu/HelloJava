@@ -31,7 +31,7 @@ public class SecondRatings {
         return myRaters.size();
     }
 
-    private double getAverageRatings(String id,int minimalRaters){
+    private double getAverageByID(String id,int minimalRaters){
         int numOfRaters = 0;
         double sumOfRating = 0;
         for (int i=0;i<myRaters.size();i++){
@@ -59,7 +59,7 @@ public class SecondRatings {
             }
         }
         for (int i=0;i<uniqueMovieIDs.size();i++){
-            double averageRatings = getAverageRatings(uniqueMovieIDs.get(i),minimalRaters);
+            double averageRatings = getAverageByID(uniqueMovieIDs.get(i),minimalRaters);
             if (averageRatings>0){
                 Rating currRating = new Rating(uniqueMovieIDs.get(i),averageRatings);
                 result.add(currRating);

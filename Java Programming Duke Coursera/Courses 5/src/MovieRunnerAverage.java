@@ -6,8 +6,9 @@ import java.util.Collections;
  * Created by Xiaoqiang on 2017/2/21.
  */
 public class MovieRunnerAverage {
+
     public void printAverageRatings(){
-        SecondRatings secondRatings = new SecondRatings("ratedmoviesfull.csv","ratings.csv");
+        SecondRatings secondRatings = new SecondRatings("data\\ratedmoviesfull.csv","data\\ratings.csv");
         System.out.println("Number of movies:"+secondRatings.getMovieSize());
         System.out.println("Number of raters:"+secondRatings.getRaterSize());
         ArrayList<Rating> averageRating = secondRatings.getAverageRatings(12);
@@ -17,23 +18,32 @@ public class MovieRunnerAverage {
             System.out.println(rating.getValue()+" "+secondRatings.getTitle(rating.getItem()));
         }
     }
-    public void getAverageRatingOneMovie(){
-        SecondRatings secondRatings = new SecondRatings("ratedmoviesfull.csv","ratings.csv");
-        String title = "Vacation";
-        String id  = secondRatings.getID(title);
-        ArrayList<Rating> averageRating = secondRatings.getAverageRatings(3);
-        System.out.print(title+" is rated: ");
-        for (int i=0;i<averageRating.size();i++){
-            if (id.equals(averageRating.get(i).getItem())){
-                System.out.println(averageRating.get(i).getValue());
-            }
-        }
 
-    }
+//    public void getAverageRatingOneMovie(){
+//        SecondRatings secondRatings = new SecondRatings("ratedmoviesfull.csv","ratings.csv");
+//        String title = "Vacation";
+//        String id  = secondRatings.getID(title);
+//        ArrayList<Rating> averageRating = secondRatings.getAverageRatings(3);
+//        System.out.print(title+" is rated: ");
+//        for (int i=0;i<averageRating.size();i++){
+//            if (id.equals(averageRating.get(i).getItem())){
+//                System.out.println(averageRating.get(i).getValue());
+//            }
+//        }
+//
+//    }
+
+
     public static void main(String[] args){
+        double begin = System.nanoTime();
         MovieRunnerAverage movieRunnerAverage = new MovieRunnerAverage();
+//        double begin = System.nanoTime();
         movieRunnerAverage.printAverageRatings();
-        movieRunnerAverage.getAverageRatingOneMovie();
+//        movieRunnerAverage.getAverageRatingOneMovie();
+        double end = System.nanoTime();
+        double stime = (end-begin)/1e9;
+        System.out.println("Time spent:"+stime+" seconds.");
+
     }
 
 }

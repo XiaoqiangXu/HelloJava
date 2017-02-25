@@ -23,14 +23,6 @@
               <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
                 <element signature="method#QuakeEntry#0;class#QuakeEntry#0" expanded="false" />
-                <element signature="e#382#383#0" expanded="false" />
-                <element signature="e#406#407#0" expanded="false" />
-                <element signature="e#439#440#0" expanded="false" />
-                <element signature="e#462#463#0" expanded="false" />
-                <element signature="e#490#491#0" expanded="false" />
-                <element signature="e#509#510#0" expanded="false" />
-                <element signature="e#538#539#0" expanded="false" />
-                <element signature="e#557#558#0" expanded="false" />
                 <element signature="method#toString#0;class#QuakeEntry#0" expanded="false" />
               </folding>
             </state>
@@ -40,8 +32,8 @@
       <file leaf-file-name="SortTimings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SortTimings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="80" column="42" lean-forward="false" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="42" />
+            <state relative-caret-position="325">
+              <caret line="79" column="12" lean-forward="true" selection-start-line="79" selection-start-column="12" selection-end-line="80" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -52,11 +44,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
               <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#581#0" expanded="false" />
-                <element signature="e#300#301#0" expanded="false" />
-                <element signature="e#333#334#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,9 +54,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
               <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#368#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,9 +74,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
               <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,8 +85,6 @@
             <state relative-caret-position="150">
               <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding>
-                <element signature="e#0#26375#0" expanded="false" />
-                <element signature="imports" expanded="false" />
                 <element signature="docComment;class#Location#0" expanded="false" />
                 <element signature="docComment;field#FORMAT_DEGREES#0;class#Location#0" expanded="false" />
                 <element signature="docComment;field#FORMAT_MINUTES#0;class#Location#0" expanded="false" />
@@ -110,11 +92,7 @@
                 <element signature="docComment;field#EXTRA_COARSE_LOCATION#0;class#Location#0" expanded="false" />
                 <element signature="docComment;field#EXTRA_NO_GPS_LOCATION#0;class#Location#0" expanded="false" />
                 <element signature="docComment;method#Location#0;class#Location#0" expanded="false" />
-                <element signature="e#4209#4210#0" expanded="false" />
-                <element signature="e#4245#4246#0" expanded="false" />
                 <element signature="docComment;method#Location#1;class#Location#0" expanded="false" />
-                <element signature="e#4372#4373#0" expanded="false" />
-                <element signature="e#4394#4395#0" expanded="false" />
                 <element signature="method#Location#2;class#Location#0" expanded="false" />
                 <element signature="docComment;method#set#0;class#Location#0" expanded="false" />
                 <element signature="method#set#0;class#Location#0" expanded="false" />
@@ -133,71 +111,35 @@
                 <element signature="docComment;method#bearingTo#0;class#Location#0" expanded="false" />
                 <element signature="method#bearingTo#0;class#Location#0" expanded="false" />
                 <element signature="docComment;method#getProvider#0;class#Location#0" expanded="false" />
-                <element signature="e#17466#17467#0" expanded="false" />
-                <element signature="e#17498#17499#0" expanded="false" />
                 <element signature="docComment;method#setProvider#0;class#Location#0" expanded="false" />
-                <element signature="e#17624#17625#0" expanded="false" />
-                <element signature="e#17660#17661#0" expanded="false" />
                 <element signature="docComment;method#getTime#0;class#Location#0" expanded="false" />
-                <element signature="e#18486#18487#0" expanded="false" />
-                <element signature="e#18514#18515#0" expanded="false" />
                 <element signature="docComment;method#setTime#0;class#Location#0" expanded="false" />
-                <element signature="e#18737#18738#0" expanded="false" />
-                <element signature="e#18765#18766#0" expanded="false" />
                 <element signature="docComment;method#getElapsedRealtimeNanos#0;class#Location#0" expanded="false" />
-                <element signature="e#19497#19498#0" expanded="false" />
-                <element signature="e#19541#19542#0" expanded="false" />
                 <element signature="docComment;method#setElapsedRealtimeNanos#0;class#Location#0" expanded="false" />
-                <element signature="e#19770#19771#0" expanded="false" />
-                <element signature="e#19814#19815#0" expanded="false" />
                 <element signature="docComment;method#getLatitude#0;class#Location#0" expanded="false" />
-                <element signature="e#20009#20010#0" expanded="false" />
-                <element signature="e#20041#20042#0" expanded="false" />
                 <element signature="docComment;method#setLatitude#0;class#Location#0" expanded="false" />
-                <element signature="e#20142#20143#0" expanded="false" />
-                <element signature="e#20178#20179#0" expanded="false" />
                 <element signature="docComment;method#getLongitude#0;class#Location#0" expanded="false" />
-                <element signature="e#20376#20377#0" expanded="false" />
-                <element signature="e#20409#20410#0" expanded="false" />
                 <element signature="docComment;method#setLongitude#0;class#Location#0" expanded="false" />
-                <element signature="e#20513#20514#0" expanded="false" />
-                <element signature="e#20551#20552#0" expanded="false" />
                 <element signature="docComment;method#hasAltitude#0;class#Location#0" expanded="false" />
-                <element signature="e#20649#20650#0" expanded="false" />
-                <element signature="e#20684#20685#0" expanded="false" />
                 <element signature="docComment;method#getAltitude#0;class#Location#0" expanded="false" />
-                <element signature="e#20910#20911#0" expanded="false" />
-                <element signature="e#20942#20943#0" expanded="false" />
                 <element signature="docComment;method#setAltitude#0;class#Location#0" expanded="false" />
                 <element signature="method#setAltitude#0;class#Location#0" expanded="false" />
                 <element signature="docComment;method#removeAltitude#0;class#Location#0" expanded="false" />
                 <element signature="method#removeAltitude#0;class#Location#0" expanded="false" />
                 <element signature="docComment;method#hasSpeed#0;class#Location#0" expanded="false" />
-                <element signature="e#21598#21599#0" expanded="false" />
-                <element signature="e#21630#21631#0" expanded="false" />
                 <element signature="docComment;method#getSpeed#0;class#Location#0" expanded="false" />
-                <element signature="e#21826#21827#0" expanded="false" />
-                <element signature="e#21855#21856#0" expanded="false" />
                 <element signature="docComment;method#setSpeed#0;class#Location#0" expanded="false" />
                 <element signature="method#setSpeed#0;class#Location#0" expanded="false" />
                 <element signature="docComment;method#removeSpeed#0;class#Location#0" expanded="false" />
                 <element signature="method#removeSpeed#0;class#Location#0" expanded="false" />
                 <element signature="docComment;method#hasBearing#0;class#Location#0" expanded="false" />
-                <element signature="e#22457#22458#0" expanded="false" />
-                <element signature="e#22491#22492#0" expanded="false" />
                 <element signature="docComment;method#getBearing#0;class#Location#0" expanded="false" />
-                <element signature="e#22873#22874#0" expanded="false" />
-                <element signature="e#22904#22905#0" expanded="false" />
                 <element signature="docComment;method#setBearing#0;class#Location#0" expanded="false" />
                 <element signature="method#setBearing#0;class#Location#0" expanded="false" />
                 <element signature="docComment;method#removeBearing#0;class#Location#0" expanded="false" />
                 <element signature="method#removeBearing#0;class#Location#0" expanded="false" />
                 <element signature="docComment;method#hasAccuracy#0;class#Location#0" expanded="false" />
-                <element signature="e#23894#23895#0" expanded="false" />
-                <element signature="e#23929#23930#0" expanded="false" />
                 <element signature="docComment;method#getAccuracy#0;class#Location#0" expanded="false" />
-                <element signature="e#25013#25014#0" expanded="false" />
-                <element signature="e#25045#25046#0" expanded="false" />
                 <element signature="docComment;method#setAccuracy#0;class#Location#0" expanded="false" />
                 <element signature="method#setAccuracy#0;class#Location#0" expanded="false" />
                 <element signature="docComment;method#removeAccuracy#0;class#Location#0" expanded="false" />
@@ -211,7 +153,7 @@
       <file leaf-file-name="DifferentSorters.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DifferentSorters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="500">
               <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="method#sortWithCompareTo#0;class#DifferentSorters#0" expanded="false" />
@@ -287,7 +229,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -326,15 +269,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -774,11 +716,12 @@
       <workItem from="1485364263686" duration="716000" />
       <workItem from="1485396106042" duration="16000" />
       <workItem from="1485655142857" duration="870000" />
+      <workItem from="1487815099659" duration="94000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16148000" />
+    <option name="totallyTimeSpent" value="16242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -798,7 +741,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17110874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17270789" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -867,14 +810,6 @@
           <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <element signature="method#QuakeEntry#0;class#QuakeEntry#0" expanded="false" />
-            <element signature="e#382#383#0" expanded="false" />
-            <element signature="e#406#407#0" expanded="false" />
-            <element signature="e#439#440#0" expanded="false" />
-            <element signature="e#462#463#0" expanded="false" />
-            <element signature="e#490#491#0" expanded="false" />
-            <element signature="e#509#510#0" expanded="false" />
-            <element signature="e#538#539#0" expanded="false" />
-            <element signature="e#557#558#0" expanded="false" />
             <element signature="method#toString#0;class#QuakeEntry#0" expanded="false" />
           </folding>
         </state>
@@ -892,11 +827,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#581#0" expanded="false" />
-            <element signature="e#300#301#0" expanded="false" />
-            <element signature="e#333#334#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -904,9 +835,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#368#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -922,9 +851,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -933,8 +860,6 @@
         <state relative-caret-position="150">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26375#0" expanded="false" />
-            <element signature="imports" expanded="false" />
             <element signature="docComment;class#Location#0" expanded="false" />
             <element signature="docComment;field#FORMAT_DEGREES#0;class#Location#0" expanded="false" />
             <element signature="docComment;field#FORMAT_MINUTES#0;class#Location#0" expanded="false" />
@@ -942,11 +867,7 @@
             <element signature="docComment;field#EXTRA_COARSE_LOCATION#0;class#Location#0" expanded="false" />
             <element signature="docComment;field#EXTRA_NO_GPS_LOCATION#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#Location#0;class#Location#0" expanded="false" />
-            <element signature="e#4209#4210#0" expanded="false" />
-            <element signature="e#4245#4246#0" expanded="false" />
             <element signature="docComment;method#Location#1;class#Location#0" expanded="false" />
-            <element signature="e#4372#4373#0" expanded="false" />
-            <element signature="e#4394#4395#0" expanded="false" />
             <element signature="method#Location#2;class#Location#0" expanded="false" />
             <element signature="docComment;method#set#0;class#Location#0" expanded="false" />
             <element signature="method#set#0;class#Location#0" expanded="false" />
@@ -965,71 +886,35 @@
             <element signature="docComment;method#bearingTo#0;class#Location#0" expanded="false" />
             <element signature="method#bearingTo#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#getProvider#0;class#Location#0" expanded="false" />
-            <element signature="e#17466#17467#0" expanded="false" />
-            <element signature="e#17498#17499#0" expanded="false" />
             <element signature="docComment;method#setProvider#0;class#Location#0" expanded="false" />
-            <element signature="e#17624#17625#0" expanded="false" />
-            <element signature="e#17660#17661#0" expanded="false" />
             <element signature="docComment;method#getTime#0;class#Location#0" expanded="false" />
-            <element signature="e#18486#18487#0" expanded="false" />
-            <element signature="e#18514#18515#0" expanded="false" />
             <element signature="docComment;method#setTime#0;class#Location#0" expanded="false" />
-            <element signature="e#18737#18738#0" expanded="false" />
-            <element signature="e#18765#18766#0" expanded="false" />
             <element signature="docComment;method#getElapsedRealtimeNanos#0;class#Location#0" expanded="false" />
-            <element signature="e#19497#19498#0" expanded="false" />
-            <element signature="e#19541#19542#0" expanded="false" />
             <element signature="docComment;method#setElapsedRealtimeNanos#0;class#Location#0" expanded="false" />
-            <element signature="e#19770#19771#0" expanded="false" />
-            <element signature="e#19814#19815#0" expanded="false" />
             <element signature="docComment;method#getLatitude#0;class#Location#0" expanded="false" />
-            <element signature="e#20009#20010#0" expanded="false" />
-            <element signature="e#20041#20042#0" expanded="false" />
             <element signature="docComment;method#setLatitude#0;class#Location#0" expanded="false" />
-            <element signature="e#20142#20143#0" expanded="false" />
-            <element signature="e#20178#20179#0" expanded="false" />
             <element signature="docComment;method#getLongitude#0;class#Location#0" expanded="false" />
-            <element signature="e#20376#20377#0" expanded="false" />
-            <element signature="e#20409#20410#0" expanded="false" />
             <element signature="docComment;method#setLongitude#0;class#Location#0" expanded="false" />
-            <element signature="e#20513#20514#0" expanded="false" />
-            <element signature="e#20551#20552#0" expanded="false" />
             <element signature="docComment;method#hasAltitude#0;class#Location#0" expanded="false" />
-            <element signature="e#20649#20650#0" expanded="false" />
-            <element signature="e#20684#20685#0" expanded="false" />
             <element signature="docComment;method#getAltitude#0;class#Location#0" expanded="false" />
-            <element signature="e#20910#20911#0" expanded="false" />
-            <element signature="e#20942#20943#0" expanded="false" />
             <element signature="docComment;method#setAltitude#0;class#Location#0" expanded="false" />
             <element signature="method#setAltitude#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#removeAltitude#0;class#Location#0" expanded="false" />
             <element signature="method#removeAltitude#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#hasSpeed#0;class#Location#0" expanded="false" />
-            <element signature="e#21598#21599#0" expanded="false" />
-            <element signature="e#21630#21631#0" expanded="false" />
             <element signature="docComment;method#getSpeed#0;class#Location#0" expanded="false" />
-            <element signature="e#21826#21827#0" expanded="false" />
-            <element signature="e#21855#21856#0" expanded="false" />
             <element signature="docComment;method#setSpeed#0;class#Location#0" expanded="false" />
             <element signature="method#setSpeed#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#removeSpeed#0;class#Location#0" expanded="false" />
             <element signature="method#removeSpeed#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#hasBearing#0;class#Location#0" expanded="false" />
-            <element signature="e#22457#22458#0" expanded="false" />
-            <element signature="e#22491#22492#0" expanded="false" />
             <element signature="docComment;method#getBearing#0;class#Location#0" expanded="false" />
-            <element signature="e#22873#22874#0" expanded="false" />
-            <element signature="e#22904#22905#0" expanded="false" />
             <element signature="docComment;method#setBearing#0;class#Location#0" expanded="false" />
             <element signature="method#setBearing#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#removeBearing#0;class#Location#0" expanded="false" />
             <element signature="method#removeBearing#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#hasAccuracy#0;class#Location#0" expanded="false" />
-            <element signature="e#23894#23895#0" expanded="false" />
-            <element signature="e#23929#23930#0" expanded="false" />
             <element signature="docComment;method#getAccuracy#0;class#Location#0" expanded="false" />
-            <element signature="e#25013#25014#0" expanded="false" />
-            <element signature="e#25045#25046#0" expanded="false" />
             <element signature="docComment;method#setAccuracy#0;class#Location#0" expanded="false" />
             <element signature="method#setAccuracy#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#removeAccuracy#0;class#Location#0" expanded="false" />
@@ -1066,14 +951,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#QuakeEntry#0;class#QuakeEntry#0" expanded="false" />
-            <element signature="e#382#383#0" expanded="false" />
-            <element signature="e#406#407#0" expanded="false" />
-            <element signature="e#439#440#0" expanded="false" />
-            <element signature="e#462#463#0" expanded="false" />
-            <element signature="e#490#491#0" expanded="false" />
-            <element signature="e#509#510#0" expanded="false" />
-            <element signature="e#538#539#0" expanded="false" />
-            <element signature="e#557#558#0" expanded="false" />
             <element signature="method#toString#0;class#QuakeEntry#0" expanded="false" />
           </folding>
         </state>
@@ -1083,11 +960,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#581#0" expanded="false" />
-            <element signature="e#300#301#0" expanded="false" />
-            <element signature="e#333#334#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,9 +968,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#368#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1113,9 +984,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1124,8 +993,6 @@
         <state relative-caret-position="150">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26375#0" expanded="false" />
-            <element signature="imports" expanded="false" />
             <element signature="docComment;class#Location#0" expanded="false" />
             <element signature="docComment;field#FORMAT_DEGREES#0;class#Location#0" expanded="false" />
             <element signature="docComment;field#FORMAT_MINUTES#0;class#Location#0" expanded="false" />
@@ -1133,11 +1000,7 @@
             <element signature="docComment;field#EXTRA_COARSE_LOCATION#0;class#Location#0" expanded="false" />
             <element signature="docComment;field#EXTRA_NO_GPS_LOCATION#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#Location#0;class#Location#0" expanded="false" />
-            <element signature="e#4209#4210#0" expanded="false" />
-            <element signature="e#4245#4246#0" expanded="false" />
             <element signature="docComment;method#Location#1;class#Location#0" expanded="false" />
-            <element signature="e#4372#4373#0" expanded="false" />
-            <element signature="e#4394#4395#0" expanded="false" />
             <element signature="method#Location#2;class#Location#0" expanded="false" />
             <element signature="docComment;method#set#0;class#Location#0" expanded="false" />
             <element signature="method#set#0;class#Location#0" expanded="false" />
@@ -1156,71 +1019,35 @@
             <element signature="docComment;method#bearingTo#0;class#Location#0" expanded="false" />
             <element signature="method#bearingTo#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#getProvider#0;class#Location#0" expanded="false" />
-            <element signature="e#17466#17467#0" expanded="false" />
-            <element signature="e#17498#17499#0" expanded="false" />
             <element signature="docComment;method#setProvider#0;class#Location#0" expanded="false" />
-            <element signature="e#17624#17625#0" expanded="false" />
-            <element signature="e#17660#17661#0" expanded="false" />
             <element signature="docComment;method#getTime#0;class#Location#0" expanded="false" />
-            <element signature="e#18486#18487#0" expanded="false" />
-            <element signature="e#18514#18515#0" expanded="false" />
             <element signature="docComment;method#setTime#0;class#Location#0" expanded="false" />
-            <element signature="e#18737#18738#0" expanded="false" />
-            <element signature="e#18765#18766#0" expanded="false" />
             <element signature="docComment;method#getElapsedRealtimeNanos#0;class#Location#0" expanded="false" />
-            <element signature="e#19497#19498#0" expanded="false" />
-            <element signature="e#19541#19542#0" expanded="false" />
             <element signature="docComment;method#setElapsedRealtimeNanos#0;class#Location#0" expanded="false" />
-            <element signature="e#19770#19771#0" expanded="false" />
-            <element signature="e#19814#19815#0" expanded="false" />
             <element signature="docComment;method#getLatitude#0;class#Location#0" expanded="false" />
-            <element signature="e#20009#20010#0" expanded="false" />
-            <element signature="e#20041#20042#0" expanded="false" />
             <element signature="docComment;method#setLatitude#0;class#Location#0" expanded="false" />
-            <element signature="e#20142#20143#0" expanded="false" />
-            <element signature="e#20178#20179#0" expanded="false" />
             <element signature="docComment;method#getLongitude#0;class#Location#0" expanded="false" />
-            <element signature="e#20376#20377#0" expanded="false" />
-            <element signature="e#20409#20410#0" expanded="false" />
             <element signature="docComment;method#setLongitude#0;class#Location#0" expanded="false" />
-            <element signature="e#20513#20514#0" expanded="false" />
-            <element signature="e#20551#20552#0" expanded="false" />
             <element signature="docComment;method#hasAltitude#0;class#Location#0" expanded="false" />
-            <element signature="e#20649#20650#0" expanded="false" />
-            <element signature="e#20684#20685#0" expanded="false" />
             <element signature="docComment;method#getAltitude#0;class#Location#0" expanded="false" />
-            <element signature="e#20910#20911#0" expanded="false" />
-            <element signature="e#20942#20943#0" expanded="false" />
             <element signature="docComment;method#setAltitude#0;class#Location#0" expanded="false" />
             <element signature="method#setAltitude#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#removeAltitude#0;class#Location#0" expanded="false" />
             <element signature="method#removeAltitude#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#hasSpeed#0;class#Location#0" expanded="false" />
-            <element signature="e#21598#21599#0" expanded="false" />
-            <element signature="e#21630#21631#0" expanded="false" />
             <element signature="docComment;method#getSpeed#0;class#Location#0" expanded="false" />
-            <element signature="e#21826#21827#0" expanded="false" />
-            <element signature="e#21855#21856#0" expanded="false" />
             <element signature="docComment;method#setSpeed#0;class#Location#0" expanded="false" />
             <element signature="method#setSpeed#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#removeSpeed#0;class#Location#0" expanded="false" />
             <element signature="method#removeSpeed#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#hasBearing#0;class#Location#0" expanded="false" />
-            <element signature="e#22457#22458#0" expanded="false" />
-            <element signature="e#22491#22492#0" expanded="false" />
             <element signature="docComment;method#getBearing#0;class#Location#0" expanded="false" />
-            <element signature="e#22873#22874#0" expanded="false" />
-            <element signature="e#22904#22905#0" expanded="false" />
             <element signature="docComment;method#setBearing#0;class#Location#0" expanded="false" />
             <element signature="method#setBearing#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#removeBearing#0;class#Location#0" expanded="false" />
             <element signature="method#removeBearing#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#hasAccuracy#0;class#Location#0" expanded="false" />
-            <element signature="e#23894#23895#0" expanded="false" />
-            <element signature="e#23929#23930#0" expanded="false" />
             <element signature="docComment;method#getAccuracy#0;class#Location#0" expanded="false" />
-            <element signature="e#25013#25014#0" expanded="false" />
-            <element signature="e#25045#25046#0" expanded="false" />
             <element signature="docComment;method#setAccuracy#0;class#Location#0" expanded="false" />
             <element signature="method#setAccuracy#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#removeAccuracy#0;class#Location#0" expanded="false" />
@@ -1257,14 +1084,6 @@
           <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <element signature="method#QuakeEntry#0;class#QuakeEntry#0" expanded="false" />
-            <element signature="e#382#383#0" expanded="false" />
-            <element signature="e#406#407#0" expanded="false" />
-            <element signature="e#439#440#0" expanded="false" />
-            <element signature="e#462#463#0" expanded="false" />
-            <element signature="e#490#491#0" expanded="false" />
-            <element signature="e#509#510#0" expanded="false" />
-            <element signature="e#538#539#0" expanded="false" />
-            <element signature="e#557#558#0" expanded="false" />
             <element signature="method#toString#0;class#QuakeEntry#0" expanded="false" />
           </folding>
         </state>
@@ -1274,11 +1093,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#581#0" expanded="false" />
-            <element signature="e#300#301#0" expanded="false" />
-            <element signature="e#333#334#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1286,9 +1101,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#368#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1304,9 +1117,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1337,14 +1148,6 @@
           <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <element signature="method#QuakeEntry#0;class#QuakeEntry#0" expanded="false" />
-            <element signature="e#382#383#0" expanded="false" />
-            <element signature="e#406#407#0" expanded="false" />
-            <element signature="e#439#440#0" expanded="false" />
-            <element signature="e#462#463#0" expanded="false" />
-            <element signature="e#490#491#0" expanded="false" />
-            <element signature="e#509#510#0" expanded="false" />
-            <element signature="e#538#539#0" expanded="false" />
-            <element signature="e#557#558#0" expanded="false" />
             <element signature="method#toString#0;class#QuakeEntry#0" expanded="false" />
           </folding>
         </state>
@@ -1354,11 +1157,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#581#0" expanded="false" />
-            <element signature="e#300#301#0" expanded="false" />
-            <element signature="e#333#334#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1366,9 +1165,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#368#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1384,9 +1181,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1444,13 +1239,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="100" column="105" lean-forward="false" selection-start-line="100" selection-start-column="105" selection-end-line="100" selection-end-column="105" />
-          <folding>
-            <element signature="method#EarthQuakeParser#0;class#EarthQuakeParser#0" expanded="false" />
-            <element signature="method#read#0;class#EarthQuakeParser#0" expanded="false" />
-            <element signature="e#623#677#0" expanded="false" />
-            <element signature="method#main#0;class#EarthQuakeParser#0" expanded="false" />
-            <element signature="e#4065#4104#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1481,11 +1269,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#581#0" expanded="false" />
-            <element signature="e#300#301#0" expanded="false" />
-            <element signature="e#333#334#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1493,9 +1277,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#368#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1518,9 +1300,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1529,8 +1309,6 @@
         <state relative-caret-position="150">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26375#0" expanded="false" />
-            <element signature="imports" expanded="false" />
             <element signature="docComment;class#Location#0" expanded="false" />
             <element signature="docComment;field#FORMAT_DEGREES#0;class#Location#0" expanded="false" />
             <element signature="docComment;field#FORMAT_MINUTES#0;class#Location#0" expanded="false" />
@@ -1538,11 +1316,7 @@
             <element signature="docComment;field#EXTRA_COARSE_LOCATION#0;class#Location#0" expanded="false" />
             <element signature="docComment;field#EXTRA_NO_GPS_LOCATION#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#Location#0;class#Location#0" expanded="false" />
-            <element signature="e#4209#4210#0" expanded="false" />
-            <element signature="e#4245#4246#0" expanded="false" />
             <element signature="docComment;method#Location#1;class#Location#0" expanded="false" />
-            <element signature="e#4372#4373#0" expanded="false" />
-            <element signature="e#4394#4395#0" expanded="false" />
             <element signature="method#Location#2;class#Location#0" expanded="false" />
             <element signature="docComment;method#set#0;class#Location#0" expanded="false" />
             <element signature="method#set#0;class#Location#0" expanded="false" />
@@ -1561,71 +1335,35 @@
             <element signature="docComment;method#bearingTo#0;class#Location#0" expanded="false" />
             <element signature="method#bearingTo#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#getProvider#0;class#Location#0" expanded="false" />
-            <element signature="e#17466#17467#0" expanded="false" />
-            <element signature="e#17498#17499#0" expanded="false" />
             <element signature="docComment;method#setProvider#0;class#Location#0" expanded="false" />
-            <element signature="e#17624#17625#0" expanded="false" />
-            <element signature="e#17660#17661#0" expanded="false" />
             <element signature="docComment;method#getTime#0;class#Location#0" expanded="false" />
-            <element signature="e#18486#18487#0" expanded="false" />
-            <element signature="e#18514#18515#0" expanded="false" />
             <element signature="docComment;method#setTime#0;class#Location#0" expanded="false" />
-            <element signature="e#18737#18738#0" expanded="false" />
-            <element signature="e#18765#18766#0" expanded="false" />
             <element signature="docComment;method#getElapsedRealtimeNanos#0;class#Location#0" expanded="false" />
-            <element signature="e#19497#19498#0" expanded="false" />
-            <element signature="e#19541#19542#0" expanded="false" />
             <element signature="docComment;method#setElapsedRealtimeNanos#0;class#Location#0" expanded="false" />
-            <element signature="e#19770#19771#0" expanded="false" />
-            <element signature="e#19814#19815#0" expanded="false" />
             <element signature="docComment;method#getLatitude#0;class#Location#0" expanded="false" />
-            <element signature="e#20009#20010#0" expanded="false" />
-            <element signature="e#20041#20042#0" expanded="false" />
             <element signature="docComment;method#setLatitude#0;class#Location#0" expanded="false" />
-            <element signature="e#20142#20143#0" expanded="false" />
-            <element signature="e#20178#20179#0" expanded="false" />
             <element signature="docComment;method#getLongitude#0;class#Location#0" expanded="false" />
-            <element signature="e#20376#20377#0" expanded="false" />
-            <element signature="e#20409#20410#0" expanded="false" />
             <element signature="docComment;method#setLongitude#0;class#Location#0" expanded="false" />
-            <element signature="e#20513#20514#0" expanded="false" />
-            <element signature="e#20551#20552#0" expanded="false" />
             <element signature="docComment;method#hasAltitude#0;class#Location#0" expanded="false" />
-            <element signature="e#20649#20650#0" expanded="false" />
-            <element signature="e#20684#20685#0" expanded="false" />
             <element signature="docComment;method#getAltitude#0;class#Location#0" expanded="false" />
-            <element signature="e#20910#20911#0" expanded="false" />
-            <element signature="e#20942#20943#0" expanded="false" />
             <element signature="docComment;method#setAltitude#0;class#Location#0" expanded="false" />
             <element signature="method#setAltitude#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#removeAltitude#0;class#Location#0" expanded="false" />
             <element signature="method#removeAltitude#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#hasSpeed#0;class#Location#0" expanded="false" />
-            <element signature="e#21598#21599#0" expanded="false" />
-            <element signature="e#21630#21631#0" expanded="false" />
             <element signature="docComment;method#getSpeed#0;class#Location#0" expanded="false" />
-            <element signature="e#21826#21827#0" expanded="false" />
-            <element signature="e#21855#21856#0" expanded="false" />
             <element signature="docComment;method#setSpeed#0;class#Location#0" expanded="false" />
             <element signature="method#setSpeed#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#removeSpeed#0;class#Location#0" expanded="false" />
             <element signature="method#removeSpeed#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#hasBearing#0;class#Location#0" expanded="false" />
-            <element signature="e#22457#22458#0" expanded="false" />
-            <element signature="e#22491#22492#0" expanded="false" />
             <element signature="docComment;method#getBearing#0;class#Location#0" expanded="false" />
-            <element signature="e#22873#22874#0" expanded="false" />
-            <element signature="e#22904#22905#0" expanded="false" />
             <element signature="docComment;method#setBearing#0;class#Location#0" expanded="false" />
             <element signature="method#setBearing#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#removeBearing#0;class#Location#0" expanded="false" />
             <element signature="method#removeBearing#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#hasAccuracy#0;class#Location#0" expanded="false" />
-            <element signature="e#23894#23895#0" expanded="false" />
-            <element signature="e#23929#23930#0" expanded="false" />
             <element signature="docComment;method#getAccuracy#0;class#Location#0" expanded="false" />
-            <element signature="e#25013#25014#0" expanded="false" />
-            <element signature="e#25045#25046#0" expanded="false" />
             <element signature="docComment;method#setAccuracy#0;class#Location#0" expanded="false" />
             <element signature="method#setAccuracy#0;class#Location#0" expanded="false" />
             <element signature="docComment;method#removeAccuracy#0;class#Location#0" expanded="false" />
@@ -1641,14 +1379,6 @@
           <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <element signature="method#QuakeEntry#0;class#QuakeEntry#0" expanded="false" />
-            <element signature="e#382#383#0" expanded="false" />
-            <element signature="e#406#407#0" expanded="false" />
-            <element signature="e#439#440#0" expanded="false" />
-            <element signature="e#462#463#0" expanded="false" />
-            <element signature="e#490#491#0" expanded="false" />
-            <element signature="e#509#510#0" expanded="false" />
-            <element signature="e#538#539#0" expanded="false" />
-            <element signature="e#557#558#0" expanded="false" />
             <element signature="method#toString#0;class#QuakeEntry#0" expanded="false" />
           </folding>
         </state>
@@ -1664,7 +1394,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DifferentSorters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="500">
           <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
             <element signature="method#sortWithCompareTo#0;class#DifferentSorters#0" expanded="false" />
@@ -1677,8 +1407,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SortTimings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="80" column="42" lean-forward="false" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="42" />
+        <state relative-caret-position="325">
+          <caret line="79" column="12" lean-forward="true" selection-start-line="79" selection-start-column="12" selection-end-line="80" selection-end-column="50" />
           <folding />
         </state>
       </provider>

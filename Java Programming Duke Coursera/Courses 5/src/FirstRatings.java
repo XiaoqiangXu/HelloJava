@@ -12,7 +12,8 @@ public class FirstRatings {
 
     public ArrayList<Movie> loadMovies (String filename){
         ArrayList<Movie> movieArrayList= new ArrayList<>();
-        FileResource fr= new FileResource("data"+"\\"+filename);
+//        FileResource fr= new FileResource("data"+"\\"+filename);
+        FileResource fr= new FileResource(filename);
         CSVParser parser = fr.getCSVParser();
         for (CSVRecord record:parser){
             Movie curMovie = new Movie(record.get("id"),record.get("title"),record.get("year"),record.get("genre"),
@@ -43,7 +44,8 @@ public class FirstRatings {
 
     public ArrayList<Rater> loadRaters(String filename){
         ArrayList<Rater> raterList= new ArrayList<>();
-        FileResource fr= new FileResource("data"+"\\"+filename);
+//        FileResource fr= new FileResource("data"+"\\"+filename);
+        FileResource fr= new FileResource(filename);
         CSVParser parser = fr.getCSVParser();
         for (CSVRecord record:parser){
             boolean exist = false;
@@ -55,7 +57,9 @@ public class FirstRatings {
                 }
             }
             if (exist==false){
-                Rater rater = new Rater(record.get("rater_id"));
+//********************************************************************************************
+                Rater rater = new EfficientRater(record.get("rater_id"));
+//********************************************************************************************
                 rater.addRating(record.get("movie_id"),Double.parseDouble(record.get("rating")));
                 raterList.add(rater);
             }
@@ -170,9 +174,14 @@ public class FirstRatings {
     }
 
     public static void main(String[] args){
+
+        double begin = System.nanoTime();
         FirstRatings firstRatings = new FirstRatings();
 //        firstRatings.testLoadMovies();
         firstRatings.testLoadRaters();
+        double end = System.nanoTime();
+        double stime = (end-begin)/1e9;
+        System.out.println("Time spent:"+stime+" seconds.");
 
     }
 
